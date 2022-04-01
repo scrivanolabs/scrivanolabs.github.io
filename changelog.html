@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        container: {
+          center: true,
+        },
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <script defer data-domain="scrivano.github.io" src="https://plausible.io/js/plausible.js"></script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script>
+    window.onload = function () {
+      var btn = document.getElementById("mobile-menu-button");
+      const menu = document.querySelector(".mobile-menu");
+      btn.addEventListener("click", () => {
+        menu.classList.toggle("hidden");
+      });
+
+    }
+  </script>
+  <!-- Lightweight client-side loader that feature-detects and load polyfills only when necessary -->
+<script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+
+<!-- Load the element definition -->
+<script type="module" src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"></script>
+
+</head>
+
+<body>
+  <nav class="bg-gray-800">
+    <div class="max-w-7xl mx-auto">
+      <div class="-ml-5 md:ml-0 flex items-center justify-between h-16">
+        <div class="flex items-center text-4xl ml-5 lg:ml-0 myfont text-left">
+          <img class="fill-current h-12 w-12 mr-2" src="assets/scrivano_icon.png" />
+          <h1 class="text-4xl text-white">Scrivano</h1>
+        </div>
+
+        <div class="text-right">
+          <div class="flex-1 flex items-center justify-center ">
+            <div class="sm:block sm:ml-6">
+              <div class="hidden md:flex space-x-4">
+                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                <a href="index.html"
+                  class="bg-gray-800 hover:bg-gray-500 text-white px-3 py-2 rounded-md text-sm font-medium"
+                  aria-current="page">Home</a>
+
+                <a href="mailto:scrivanolabs@gmail.com"
+                  class="text-gray-300 bg-gray-800 hover:bg-gray-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Support</a>
+
+                <a href="changelog.html"
+                  class="text-gray-300 bg-gray-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Changelog</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="md:hidden flex items-center mr-4">
+          <button class="outline-none" id="mobile-menu-button">
+            <svg class="w-6 h-6 text-gray-500" x-show="!showMenu" fill="none" stroke-linecap="round"
+              stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+              <path d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+  </nav>
+
+  <div class="hidden mobile-menu">
+    <ul class="ml">
+      <li class="active bg-gray-800 hover:bg-gray-500">
+        <a href="index.html" class="block text-sm px-2 py-4 text-white font-semibold ml-5">Home</a>
+      </li>
+      <li class="active bg-gray-800 hover:bg-gray-500">
+        <a href="mailto:scrivanolabs@gmail.com"
+          class="block text-sm px-2 py-4 text-white font-semibold ml-5">Contact</a>
+      </li>
+      <li class="active bg-gray-500">
+        <a href="changelog.html" class="block text-sm px-2 py-4 text-white font-semibold ml-5">Changelog</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+
+  <!-- Simply set the `src` attribute to your MD file and win -->
+  <div class="mx-auto max-w-7xl mt-4 ml-2 lg:ml-auto">
+    <zero-md src="https://raw.githubusercontent.com/scrivanolabs/Scrivano/main/Changelog.md"></zero-md>
+  </div>
+</body>
+
+</html>
