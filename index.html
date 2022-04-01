@@ -22,8 +22,10 @@
   <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   <script type="module" src="https://getbadgecdn.azureedge.net/ms-store-badge.bundled.js"></script>
   <script defer data-domain="scrivanolabs.github.io" src="https://plausible.io/js/plausible.js"></script>
+  <script>window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
   <script>
     function clickBadge() {
+      plausible('Download')
       if (navigator.appVersion.indexOf("Win") != -1) {
         window.open("ms-windows-store://pdp/?productid=9MWCLGJ5XCBS", "_self")
       }
@@ -96,7 +98,7 @@
   </div>
   </div>
 
-    <div class="mx-auto flex max-w-7xl flex-col -space-y-8 md:space-y-0 md:flex-row">
+  <div class="mx-auto flex max-w-7xl flex-col -space-y-8 md:space-y-0 md:flex-row">
     <div class="p-6 md:h-auto md:w-4/12 flex-col m-auto">
       <h1 class="text-4xl text-center align-middle -mt-4 md:mt-5">A simple and easy to use app for taking handwritten
         notes on Windows 10/11.
@@ -124,7 +126,8 @@
       <div class="p-6 md:h-auto md:w-4/12 flex-col space-y-4">
         <h1 class="text-4xl text-left mt-0 md:mt-5">Different backgrounds and page sizes</h1>
         <h2 class="text-2xl text-left">
-          You can customise your documents by choosing between 4 different paper backgrounds: Plain, Lined, Grid or Dotted with customisable spacing.
+          You can customise your documents by choosing between 4 different paper backgrounds: Plain, Lined, Grid or
+          Dotted with customisable spacing.
           So you can export your notes as PDF documents in traditional printing formats.
         </h2>
       </div>
@@ -143,20 +146,20 @@
       </div>
     </div>
 
-        <!--STICKERS SHOWCASE-->
-        <div class="mx-auto flex max-w-7xl flex-col -space-y-8 md:space-y-0 md:flex-row">
-          <div class="p-6 md:h-auto md:w-8/12">
-            <img class="h-full w-full object-cover rounded-md" src="assets/stickers_screen.png" alt="img" />
-          </div>
-          <div class="p-6 md:h-auto md:w-4/12 flex-col space-y-4">
-            <h1 class="text-4xl text-left mt-0 md:mt-5">Stickers</h1>
-            <h2 class="text-2xl text-left">
-              Save your frequently used symbols and diagrams, so you can easily drag and drop whenever you need them.
-            </h2>
-          </div>
-        </div>
+    <!--STICKERS SHOWCASE-->
+    <div class="mx-auto flex max-w-7xl flex-col -space-y-8 md:space-y-0 md:flex-row">
+      <div class="p-6 md:h-auto md:w-8/12">
+        <img class="h-full w-full object-cover rounded-md" src="assets/stickers_screen.png" alt="img" />
+      </div>
+      <div class="p-6 md:h-auto md:w-4/12 flex-col space-y-4">
+        <h1 class="text-4xl text-left mt-0 md:mt-5">Stickers</h1>
+        <h2 class="text-2xl text-left">
+          Save your frequently used symbols and diagrams, so you can easily drag and drop whenever you need them.
+        </h2>
+      </div>
+    </div>
 
-        
+
     <!--LASER SHOWCASE-->
     <div class="mx-auto flex max-w-7xl flex-col -space-y-8 md:space-y-0 md:flex-row-reverse">
       <div class="p-6 md:h-auto md:w-8/12">
