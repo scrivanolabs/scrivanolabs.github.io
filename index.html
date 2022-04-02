@@ -39,6 +39,11 @@
         window.open("https://www.microsoft.com/store/apps/9MWCLGJ5XCBS", "_self")
       }
     }
+
+    function openSubreddit(){
+      plausible("Subreddit")
+      window.open("https://reddit.com/r/Scrivano", "_self")
+    }
   </script>
   <script>
     window.onload = function () {
@@ -70,6 +75,9 @@
 
                 <a href="mailto:scrivanolabs@gmail.com"
                   class="text-gray-300 bg-gray-800 hover:bg-gray-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Support</a>
+
+                <a href="javascript:openSubreddit();"
+                  class="text-gray-300 bg-gray-800 hover:bg-gray-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Subreddit</a>
 
                 <a href="changelog.html"
                   class="text-gray-300 bg-gray-800 hover:bg-gray-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Changelog</a>
@@ -115,7 +123,7 @@
       </div>
     </div>
     <div class="p-6 md:h-auto md:w-8/12">
-      <img class="h-full w-full object-cover" src="assets/mainscreenshot.png" alt="img" />
+      <img class="h-full w-full object-cover" src="assets/mainscreenshot2.png" alt="img" />
     </div>
   </div>
 
