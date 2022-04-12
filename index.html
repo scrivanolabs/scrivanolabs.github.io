@@ -20,7 +20,7 @@
             clifford: '#da373d',
           }
         },
-        fontFamily : {
+        fontFamily: {
           'sans': 'Inter, Helvetica, Arial, sans-serif',
         }
       }
@@ -40,62 +40,31 @@
         window.open("https://www.microsoft.com/store/apps/9MWCLGJ5XCBS", "_self")
       }
     }
-
-    function openSubreddit(){
-      plausible("Subreddit")
-      window.open("https://reddit.com/r/Scrivano", "_self")
-    }
-  </script>
-  <script>
-    window.onload = function () {
-      var btn = document.getElementById("mobile-menu-button");
-      const menu = document.querySelector(".mobile-menu");
-      btn.addEventListener("click", () => {
-        menu.classList.toggle("hidden");
-      });
-    }
   </script>
 </head>
 
 <body>
-  <nav class="bg-gray-800">
-    <div class="max-w-7xl mx-auto">
-      <div class="-ml-5 md:ml-0 flex items-center justify-between h-16">
-        <div class="flex items-center text-4xl ml-5 md:ml-0 myfont text-left">
-          <img class="fill-current h-12 w-12 mr-2" src="assets/scrivano_icon.png" />
-          <h1 class="text-4xl text-white">Scrivano</h1>
-        </div>
+  <!--Navigation bar-->
+  <script>
+    function openSubreddit() {
+      plausible("Subreddit")
+      window.open("https://reddit.com/r/Scrivano", "_self")
+    }
 
-        <div class="text-right">
-          <div class="flex-1 flex items-center justify-center ">
-            <div class="sm:block sm:ml-6">
-              <div class="hidden md:flex space-x-4">
-                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-                <a href="index.html" class="bg-gray-500 text-white px-3 py-2 rounded-md text-sm font-medium"
-                  aria-current="page">Home</a>
+    function onNavbarLoaded() {
+      $("#home_link").toggleClass('bg-gray-800 bg-gray-500');
+    }
+  </script>
+  <div id="nav-placeholder">
 
-                <a href="mailto:scrivanolabs@gmail.com"
-                  class="text-gray-300 bg-gray-800 hover:bg-gray-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Support</a>
+  </div>
+  <script>
+    $(function () {
+      $("#nav-placeholder").load("navbar.html", onNavbarLoaded);
+    });
+  </script>
+  <!--end of Navigation bar-->
 
-                <a href="javascript:openSubreddit();"
-                  class="text-gray-300 bg-gray-800 hover:bg-gray-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Subreddit</a>
-
-                <a href="changelog.html"
-                  class="text-gray-300 bg-gray-800 hover:bg-gray-500 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Changelog</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="md:hidden flex items-center mr-4">
-          <button class="outline-none" id="mobile-menu-button">
-            <svg class="w-6 h-6 text-gray-500" x-show="!showMenu" fill="none" stroke-linecap="round"
-              stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
-              <path d="M4 6h16M4 12h16M4 18h16"></path>
-            </svg>
-          </button>
-        </div>
-  </nav>
 
   <div class="hidden mobile-menu">
     <ul class="ml">
