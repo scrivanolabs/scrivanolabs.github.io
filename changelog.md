@@ -2,15 +2,15 @@
 - NEW: Double tap to undo.
 - NEW: Keyboard shortcuts for toolbar buttons (hover to see).
 - FIX: Automatically switch to previous tool when selecting using dedicated pen button.
-- FIX Rendering artifacts on some devices
-- File dialog is now faster and more responsive
-- Reduced startup time
+- FIX: Rendering artifacts on some devices.
+- File dialog is now faster and more responsive.
+- Reduced startup time.
 
 # Version 0.10.3
-- Reduced latency of ink strokes on Windows 10/11.
-- Added tooltips for toolbar buttons when hovered.
-- Fixed a bug that prevented images from being deleted when selected.
-- Disabled annoying visual feedback when pen is pressed on the canvas on Windows 10/11.
+- NEW: Added tooltips for toolbar buttons when hovered.
+- FIX: Bug that prevented images from being deleted when selected.
+- Reduced latency of ink strokes on Windows 11.
+- Disabled visual feedback when pen is pressed on the canvas on Windows.
 - Improved precision of eraser tool.
 
 # Version 0.9.11
