@@ -31,14 +31,21 @@
   <script defer data-domain="scrivanolabs.github.io" src="https://plausible.io/js/plausible.js"></script>
   <script>window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
   <script>
-    function clickBadge() {
+    function clickWinBadge() {
       plausible('Download')
+      plausible("Windows Download")
       if (navigator.appVersion.indexOf("Win") != -1) {
         window.open("ms-windows-store://pdp/?productid=9MWCLGJ5XCBS", "_self")
       }
       else {
         window.open("https://www.microsoft.com/store/apps/9MWCLGJ5XCBS", "_self")
       }
+    }
+
+    function clickLinuxBadge() {
+      plausible('Download')
+      plausible("Linux Download")
+      window.open("https://github.com/scrivanolabs/ScrivanoForLinux/releases", "_self")
     }
   </script>
 </head>
@@ -85,11 +92,15 @@
   <div class="mx-auto flex max-w-7xl flex-col -space-y-8 md:space-y-0 md:flex-row">
     <div class="p-6 md:h-auto md:w-4/12 flex-col m-auto">
       <h1 class="text-4xl text-center align-middle -mt-4 md:mt-5">A simple and easy to use app for taking handwritten
-        notes on Windows 10/11.
+        notes on Windows and Linux.
       </h1>
       <div class="align-middle">
         <img class="h-16 w-auto align-middle mt-8 mx-auto cursor-pointer" src="assets/ms_store_badge.svg"
-          onclick="clickBadge()" />
+          onclick="clickWinBadge()" />
+      </div>
+      <div class="align-middle">
+        <img class="h-16 w-auto align-middle mt-4 mx-auto cursor-pointer" src="assets/linux_badge.svg"
+          onclick="clickLinuxBadge()" />
       </div>
     </div>
     <div class="p-6 md:h-auto md:w-8/12">
