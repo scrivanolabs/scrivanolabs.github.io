@@ -1,3 +1,7 @@
+# Version 0.10.12
+- FIX: Bug that caused application to hang on AMD machines
+- FIX: Bug that file dialog to stop working when a folder was deleted on the disk
+
 # Version 0.10.10
 - NEW: Double tap to undo.
 - NEW: Keyboard shortcuts for toolbar buttons (hover to see).
