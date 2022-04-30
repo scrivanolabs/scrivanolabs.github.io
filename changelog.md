@@ -3,7 +3,7 @@
 - FIX: Bug that file dialog to stop working when a folder was deleted on the disk
 
 # Version 0.10.10
-- NEW: Double tap to undo.
+- NEW: Tap with two fingers to undo.
 - NEW: Keyboard shortcuts for toolbar buttons (hover to see).
 - FIX: Automatically switch to previous tool when selecting using dedicated pen button.
 - FIX: Rendering artifacts on some devices.
