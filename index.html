@@ -53,6 +53,11 @@
 <body>
   <!--Navigation bar-->
   <script>
+    function openTwitter() {
+      plausible('Twitter')
+      window.open("http://twitter.com/ScrivanoDev", "_self")
+    }
+
     function openSubreddit() {
       plausible("Subreddit")
       window.open("https://reddit.com/r/Scrivano", "_self")
@@ -171,6 +176,22 @@
 
     <div class="text-center p-10">
       <h1 class="text-5xl mb-5">And much more!</h1>
+    </div>
+
+    <div class="p-10">
+      <h1 class="text-2xl mb-5">For more information, you can send an email to
+        <a class="underline" href="mailto:scrivanolabs@gmail.com">
+          scrivanolabs@gmail.com
+        </a>.
+        You can also follow updates and discussions about the app on
+        <a class="underline" href="javascript:openSubreddit();">
+          Reddit
+        </a>
+        and
+        <a class="underline" href="javascript:openTwitter();">
+          Twitter
+        </a>.
+      </h1>
     </div>
   </div>
 </body>
