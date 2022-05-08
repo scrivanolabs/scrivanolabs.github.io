@@ -1,6 +1,14 @@
-# Version 0.10.12
+# Version 0.11.2
+- NEW: Tap to select an image when using selection tool.
+- NEW: Ability to open files directly from the system's file manager.
+- NEW: Ability to rotate images.
+- NEW: Ability to disable pressure sensitivity.
+- FIX: Title bar color now follows app's theme (requires restart).
+
+# Version 0.10.13
 - FIX: Bug that caused application to hang on AMD machines
 - FIX: Bug that file dialog to stop working when a folder was deleted on the disk
+- Improved detection of tap with two fingers gesture.
 
 # Version 0.10.10
 - NEW: Tap with two fingers to undo.
