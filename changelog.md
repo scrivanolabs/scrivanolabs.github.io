@@ -1,4 +1,8 @@
-# Version 0.11.2
+# Version 0.12.0
+- NEW: Ability to import PDF files.
+- NEW: Ability to change orientation of documents.
+
+# Version 0.11.3
 - NEW: Tap to select an image when using selection tool.
 - NEW: Ability to open files directly from the system's file manager.
 - NEW: Ability to rotate images.
