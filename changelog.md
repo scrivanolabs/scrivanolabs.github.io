@@ -1,6 +1,7 @@
-# Version 0.12.0
+# Version 0.12.2
 - NEW: Ability to import PDF files.
 - NEW: Ability to change orientation of documents.
+- Major improvements for rendering large documents and smoother pinch to zoom.
 
 # Version 0.11.3
 - NEW: Tap to select an image when using selection tool.
