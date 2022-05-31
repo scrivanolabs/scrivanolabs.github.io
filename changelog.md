@@ -3,11 +3,11 @@
 - NEW: Ability to change orientation of documents.
 - NEW: Use "desktop-like" scrolling behaviour with touchpads and mice.
 - FIX: Duplicating images now preserve the angle of rotation.
+- FIX: Crash at starup when using Wayland (Linux).
 - Major improvements for rendering large documents and smoother pinch to zoom.
 - Minor improvements in the behaviour of the partial eraser tool.
 - Window is automatically centered on startup.
 - Document zoom level is now set to 90% of thes screen width at startup.
-
 # Version 0.11.3
 - NEW: Tap to select an image when using selection tool.
 - NEW: Ability to open files directly from the system's file manager.
