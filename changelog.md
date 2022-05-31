@@ -1,4 +1,4 @@
-# Version 0.12.3
+# Version 0.12.4
 - NEW: Ability to import PDF files.
 - NEW: Ability to change orientation of documents.
 - NEW: Use "desktop-like" scrolling behaviour with touchpads and mice.
