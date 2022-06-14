@@ -1,3 +1,9 @@
+# Version 0.12.5
+- FIX: Exporting PDF files with dark theme now works again.
+- FIX: Occasional crashes when opening PDF files.
+- Slightly improved startup times.
+- Increased resolution of PDF rendering.
+
 # Version 0.12.4
 - Further performance improvements for PDF rendering and drawing on low end devices
 - FIX: bug that caused edges of pages in the document to not be painted
