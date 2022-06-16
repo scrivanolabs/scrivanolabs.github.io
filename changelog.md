@@ -1,3 +1,9 @@
+# Version 0.12.5
+- FIX: Exporting PDF files with dark theme now works again.
+- FIX: Occasional crashes when opening PDF files.
+- Slightly improved startup times.
+- Increased resolution of PDF rendering.
+
 # Version 0.12.4
 - NEW: Ability to import PDF files.
 - NEW: Ability to change orientation of documents.
