@@ -1,3 +1,11 @@
+# Version 0.13.0
+- NEW: HEX code field in color picker.
+- NEW: Custom background and pattern colors.
+- NEW: Press and hold pen to prevent lines from automatic snapping.
+- Moved default format settings to a new dialog.
+- FIX: bug that caused the screen to go back when resizing windows.
+- Other minor improvements.
+
 # Version 0.12.5
 - FIX: Exporting PDF files with dark theme now works again.
 - FIX: Occasional crashes when opening PDF files.
