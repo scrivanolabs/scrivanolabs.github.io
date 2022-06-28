@@ -6,6 +6,9 @@
 - FIX: bug that caused the screen to go back when resizing windows.
 - Other minor improvements.
 
+# Version 0.12.6
+- FIX: bug that caused canvas to move at the bottom of the document.
+
 # Version 0.12.5
 - FIX: Exporting PDF files with dark theme now works again.
 - FIX: Occasional crashes when opening PDF files.
