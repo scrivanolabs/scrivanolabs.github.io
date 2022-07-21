@@ -1,8 +1,11 @@
 # Version 0.13.1
+- NEW: Added the possibility of customising fill color and opacity.
+- Improved rendering of ink strokes.
 - You can now scroll and pinch when using laser mode.
 - You can now pinch and scroll with two fingers when in selection mode.
 - Small improvements to the file dialog.
 - FIX: rotation of ellipses now works correctly.
+- FIX: prevent accidental strokes when using main colour picker.
 
 
 # Version 0.13.0
