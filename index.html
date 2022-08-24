@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="oeL6bdSaj7_OdUsnJWLksE5ykpRaLpGXhELSKsiNZl0" />
+  <title>Scrivano for Handwritten Notes</title>
+  <link rel="icon" href="assets/scrivano_icon.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:200,300,400">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        container: {
+          center: true,
+        },
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        },
+        fontFamily: {
+          'sans': 'Inter, Helvetica, Arial, sans-serif',
+        }
+      }
+    }
+  </script>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  <script type="module" src="https://getbadgecdn.azureedge.net/ms-store-badge.bundled.js"></script>
+  <script defer data-domain="scrivanolabs.github.io" src="https://plausible.io/js/plausible.js"></script>
+  <script>window.plausible = window.plausible || function () { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+  <script>
+    function clickWinBadge() {
+      plausible('Download')
+      plausible("Windows Download")
+      if (navigator.appVersion.indexOf("Win") != -1) {
+        window.open("ms-windows-store://pdp/?productid=9MWCLGJ5XCBS", "_self")
+      }
+      else {
+        window.open("https://www.microsoft.com/store/apps/9MWCLGJ5XCBS", "_self")
+      }
+    }
+
+    function clickLinuxBadge() {
+      plausible('Download')
+      plausible("Linux Download")
+      window.open("https://github.com/scrivanolabs/ScrivanoForLinux/releases", "_self")
+    }
+  </script>
+</head>
+
+<body>
+  <!--Navigation bar-->
+  <script>
+    function openTwitter() {
+      plausible('Twitter')
+      window.open("http://twitter.com/ScrivanoDev", "_self")
+    }
+
+    function openSubreddit() {
+      plausible("Subreddit")
+      window.open("https://reddit.com/r/Scrivano", "_self")
+    }
+
+    function onNavbarLoaded() {
+      $("#home_link").toggleClass('bg-gray-800 bg-gray-500');
+    }
+  </script>
+  <div id="nav-placeholder">
+
+  </div>
+  <script>
+    $(function () {
+      $("#nav-placeholder").load("navbar.html", onNavbarLoaded);
+    });
+  </script>
+  <!--end of Navigation bar-->
+
+
+  <div class="hidden mobile-menu">
+    <ul class="ml">
+      <li class="active bg-gray-500">
+        <a href="index.html" class="block text-sm px-2 py-4 text-white font-semibold ml-5">Home</a>
+      </li>
+      <li class="active bg-gray-800 hover:bg-gray-500">
+        <a href="mailto:scrivanolabs@gmail.com"
+          class="block text-sm px-2 py-4 text-white font-semibold ml-5">Contact</a>
+      </li>
+      <li class="active bg-gray-800 hover:bg-gray-500">
+        <a href="changelog.html" class="block text-sm px-2 py-4 text-white font-semibold ml-5">Changelog</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+
+  <div class="mx-auto flex max-w-7xl flex-col -space-y-8 md:space-y-0 md:flex-row">
+    <div class="p-6 md:h-auto md:w-4/12 flex-col m-auto">
+      <h1 class="text-4xl text-center align-middle -mt-4 md:mt-5">A simple and easy to use app for taking handwritten
+        notes on Windows and Linux.
+      </h1>
+      <div class="align-middle">
+        <img class="h-16 w-auto align-middle mt-8 mx-auto cursor-pointer" src="assets/ms_store_badge.svg"
+          onclick="clickWinBadge()" />
+      </div>
+      <div class="align-middle">
+        <img class="h-16 w-auto align-middle mt-4 mx-auto cursor-pointer" src="assets/linux_badge.svg"
+          onclick="clickLinuxBadge()" />
+      </div>
+    </div>
+    <div class="p-6 md:h-auto md:w-8/12">
+      <img class="h-full w-full object-cover" src="assets/mainscreenshot.png" alt="img" />
+    </div>
+  </div>
+
+  <div class="h-8 mt-4">
+    <hr />
+  </div>
+
+  <div class="flex flex-col space-y-0 md:space-y-8">
+    <!--PAGE FORMAT SHOWCASE-->
+    <div class="mx-auto flex max-w-7xl flex-col -space-y-8 md:space-y-0 md:flex-row">
+      <div class="p-6 md:h-auto md:w-8/12">
+        <img class="h-full w-full object-cover rounded-md" src="assets/page_format_screen.png" alt="img" />
+      </div>
+      <div class="p-6 md:h-auto md:w-4/12 flex-col space-y-4">
+        <h1 class="text-4xl text-left mt-0 md:mt-5">Different backgrounds and page sizes</h1>
+        <h2 class="text-2xl text-left font-light">
+          You can customise your documents by choosing between 4 different paper backgrounds: Plain, Lined, Grid or
+          Dotted with customisable spacing and backgrounds.
+          So you can export your notes as PDF documents in traditional printing formats.
+        </h2>
+      </div>
+    </div>
+
+    <!--GRID SNAPPING SHOWCASE-->
+    <div class="mx-auto flex max-w-7xl flex-col -space-y-8 md:space-y-0 md:flex-row-reverse">
+      <div class="p-6 md:h-auto md:w-8/12">
+        <img class="h-full w-full object-cover rounded-md" src="assets/grid_snapping_screen.png" alt="img" />
+      </div>
+      <div class="p-6 md:h-auto md:w-4/12 flex-col space-y-4">
+        <h1 class="text-4xl text-left mt-0 md:mt-5">Grid Snapping</h1>
+        <h2 class="text-2xl text-left font-light">
+          In Scrivano you can toggle the grid snapping feature so that your drawings will
+          automatically snap to grid lines in the background. This is very useful to easily draw tables, diagrams and
+          lines.</h2>
+      </div>
+    </div>
+
+    <!--PDF SHOWCASE-->
+    <div class="mx-auto flex max-w-7xl flex-col -space-y-8 md:space-y-0 md:flex-row">
+      <div class="p-6 md:h-auto md:w-8/12">
+        <img class="h-full w-full object-cover rounded-md" src="assets/pdf_screen.png" alt="img" />
+      </div>
+      <div class="p-6 md:h-auto md:w-4/12 flex-col space-y-4">
+        <h1 class="text-4xl text-left mt-0 md:mt-5">Annotate PDF files</h1>
+        <h2 class="text-2xl text-left font-light">
+          You can import your PDF books, lecture slides, articles and documents to annotate them using Scrivano's built-in
+          inking tools.</h2>
+      </div>
+    </div>
+
+    <!--STICKERS SHOWCASE-->
+    <div class="mx-auto flex max-w-7xl flex-col -space-y-8 md:space-y-0 md:flex-row-reverse">
+      <div class="p-6 md:h-auto md:w-8/12">
+        <img class="h-full w-full object-cover rounded-md" src="assets/stickers_screen.png" alt="img" />
+      </div>
+      <div class="p-6 md:h-auto md:w-4/12 flex-col space-y-4">
+        <h1 class="text-4xl text-left mt-0 md:mt-5">Stickers</h1>
+        <h2 class="text-2xl text-left font-light">
+          Save your frequently used symbols and diagrams, so you can easily drag and drop on the canvas whenever you need them.
+        </h2>
+      </div>
+    </div>
+
+
+    <!--LASER SHOWCASE-->
+    <div class="mx-auto flex max-w-7xl flex-col -space-y-8 md:space-y-0 md:flex-row">
+      <div class="p-6 md:h-auto md:w-8/12">
+        <img class="h-full w-full object-cover rounded-md" src="assets/laser_screen.png" alt="img" />
+      </div>
+      <div class="p-6 md:h-auto md:w-4/12 flex-col space-y-4">
+        <h1 class="text-4xl text-left mt-0 md:mt-5">Laser</h1>
+        <h2 class="text-2xl text-left font-light">
+          Scrivano gives you a special laser tool to quickly draw over your notes. Incredibly
+          useful when sharing your screen or presenting something!</h2>
+      </div>
+    </div>
+
+    <div class="text-center p-10">
+      <h1 class="text-5xl mb-5">And much more!</h1>
+    </div>
+
+    <div class="p-10">
+      <h1 class="text-2xl mb-5">For more information, you can send an email to
+        <a class="underline" href="mailto:scrivanolabs@gmail.com">
+          scrivanolabs@gmail.com
+        </a>.
+        You can also follow updates and discussions about the app on
+        <a class="underline" href="javascript:openSubreddit();">
+          Reddit
+        </a>
+        and
+        <a class="underline" href="javascript:openTwitter();">
+          Twitter
+        </a>.
+      </h1>
+    </div>
+  </div>
+</body>
+
+</html>
