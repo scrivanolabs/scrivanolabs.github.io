@@ -1,3 +1,10 @@
+# Version 0.13.7
+- FIX: dashed and dotted styles are now remembered when switching between pens.
+- FIX: drawing lines with highlighter by pressing and holding.
+- FIX: custom fill colors are now correctly assigned when using dark mode.
+- Improve PDF rendering quality on high DPI screens.
+- Other minor tweaks.
+
 # Version 0.13.6
 - FIX: bug that caused scrolling and pinching to stop working.
 
