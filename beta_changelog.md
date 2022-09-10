@@ -1,4 +1,4 @@
-# Version 0.13.7
+# Version 0.13.7 - 10/09/2022
 - FIX: dashed and dotted styles are now remembered when switching between pens.
 - FIX: drawing lines with highlighter by pressing and holding.
 - FIX: custom fill colors are now correctly assigned when using dark mode.
