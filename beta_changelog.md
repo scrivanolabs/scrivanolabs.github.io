@@ -1,4 +1,8 @@
-# Version 0.13.7 - 10/09/2022
+# Version 0.13.8
+- FIX: crash when using "Erase everything" option
+- FIX: improved scrollbar behaviour to prevent accidental scrolling
+
+# Version 0.13.7
 - FIX: dashed and dotted styles are now remembered when switching between pens.
 - FIX: drawing lines with highlighter by pressing and holding.
 - FIX: custom fill colors are now correctly assigned when using dark mode.
