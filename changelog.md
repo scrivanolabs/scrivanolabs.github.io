@@ -1,3 +1,12 @@
+# Version 0.13.8
+- FIX: crash when using "Erase everything" option
+- FIX: improved scrollbar behaviour to prevent accidental scrolling
+- FIX: dashed and dotted styles are now remembered when switching between pens.
+- FIX: drawing lines with highlighter by pressing and holding.
+- FIX: custom fill colors are now correctly assigned when using dark mode.
+- Improve PDF rendering quality on high DPI screens.
+- Other minor tweaks.
+
 # Version 0.13.6
 - FIX: bug that caused scrolling and pinching to stop working (Windows only).
 
