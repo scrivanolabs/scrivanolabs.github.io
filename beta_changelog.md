@@ -1,3 +1,7 @@
+# Version 0.13.9
+- FIX: bug that prevented thickness changes to be applied immediately.
+- FIX: dialog to switch pen types not large enough when app window is small.
+
 # Version 0.13.8
 - FIX: crash when using "Erase everything" option
 - FIX: improved scrollbar behaviour to prevent accidental scrolling
