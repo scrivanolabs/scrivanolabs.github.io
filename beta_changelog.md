@@ -1,3 +1,15 @@
+# Version 0.14.0
+- NEW: area eraser mode to delete all strokes inside or intersecting a path.
+- NEW: option to enable eraser for highlighted strokes only.
+- NEW: option to change eraser size.
+- NEW: option to enable/disable automatic switching of tools.
+- NEW: option to exclude images when using the selection tool.
+- NEW: automatic snapping of lines to other lines or shapes.
+- NEW: 2D axis shape
+- NEW: selection now automatically snaps to grid when grid snapping is enabled.
+- Major internal rewrite of application's data structures.
+- Minor bug fixes and improvements.
+
 # Version 0.13.9
 - FIX: bug that prevented thickness changes to be applied immediately.
 - FIX: dialog to switch pen types not large enough when app window is small.
