@@ -1,3 +1,9 @@
+# Version 0.14.1
+- Restore "Erase everything option".
+- Noticeably improved speed and power consumption of rendering engine.
+- Improved ink smoothness (Windows only).
+- Other small bug fixes.
+
 # Version 0.14.0
 - NEW: area eraser mode to delete all strokes inside or intersecting a path.
 - NEW: option to enable eraser for highlighted strokes only.
