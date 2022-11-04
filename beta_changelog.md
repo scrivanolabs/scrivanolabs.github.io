@@ -1,3 +1,12 @@
+# Version 0.14.2
+- NEW: Option to draw using fingers.
+- NEW: Optional input prediction algorithm to reduce input latency.
+- NEW: Experimental two fingers gesture to erase ink.
+- NEW: Option to disable hiding the cursor when drawing.
+- Further reductions in energy consumption while drawing.
+- Ink strokes are now smoothed out when drawing with a mouse.
+- Various other bug fixes.
+
 # Version 0.14.1
 - Restore "Erase everything option".
 - Noticeably improved speed and power consumption of rendering engine.
