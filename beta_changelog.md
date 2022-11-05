@@ -1,3 +1,6 @@
+# Version 0.14.3
+- Various bug fixes and crashes
+
 # Version 0.14.2
 - NEW: Option to draw using fingers.
 - NEW: Optional input prediction algorithm to reduce input latency.
