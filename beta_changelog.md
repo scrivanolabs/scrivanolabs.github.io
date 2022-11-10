@@ -1,3 +1,12 @@
+# Version 0.14.4
+- Show shortcuts in side menu.
+- Improved drawing of shapes with grid snapping enabled.
+- Increase performance of vertical space tool on multicore machines.
+- FIX: crash when using the vertical space tool.
+- FIX: bug that caused stickers and pasted strokes to dissappear.
+- FIX: pinch to zoom now cancels drawing if finger drawing is enabled.
+- Other minor improvements and fixes.
+
 # Version 0.14.3
 - Various bug fixes and crashes
 
