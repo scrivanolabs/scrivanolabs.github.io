@@ -1,3 +1,7 @@
+# Version 0.14.5
+- Improved line snapping algorithm.
+- Minor bug fixes.
+
 # Version 0.14.4
 - Show shortcuts in side menu.
 - Improved drawing of shapes with grid snapping enabled.
