@@ -1,3 +1,9 @@
+
+# Version 0.14.6
+- FIX: bug that caused stickers to be inserted in the wrong position.
+- FIX: bug that caused background to not move when stickers are made visible.
+- Other minor bug fixes and improvements
+
 # Version 0.14.5
 - Improved line snapping algorithm.
 - Minor bug fixes.
