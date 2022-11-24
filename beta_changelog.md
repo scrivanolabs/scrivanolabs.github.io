@@ -1,3 +1,7 @@
+# Version 0.14.7
+- FIX: crash during PDF importing.
+- Disable input prediction by default.
+- Other minor bug fixes and improvements.
 
 # Version 0.14.6
 - FIX: bug that caused stickers to be inserted in the wrong position.
