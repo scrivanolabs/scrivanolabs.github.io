@@ -1,3 +1,29 @@
+# Version 0.14.7
+- NEW: area eraser mode to delete all strokes inside or intersecting a path.
+- NEW: option to enable eraser for highlighted strokes only.
+- NEW: option to change eraser size.
+- NEW: option to enable/disable automatic switching of tools.
+- NEW: option to exclude images when using the selection tool.
+- NEW: automatic snapping of lines to other lines or shapes.
+- NEW: 2D axis shape.
+- NEW: selection now automatically snaps to grid when grid snapping is enabled.
+- NEW: option to draw using fingers.
+- NEW: optional input prediction algorithm to reduce input latency.
+- NEW: experimental two fingers gesture to erase ink.
+- NEW: option to disable hiding the cursor when drawing.
+- FIX: bug that caused background to not move when stickers are made visible.
+- FIX: bug that caused stickers and pasted strokes to dissappear.
+- FIX: rare crash during PDF importing.
+- FIX: bug that caused the app to crash when using the partial eraser.
+- FIX: rare crash when using undo/redo buttons.
+- Major internal rewrite of application's data structures.
+- Noticeably improved speed and power consumption of rendering engine.
+- Ink strokes are now smoothed out when drawing with a mouse.
+- Increase performance of vertical space tool on multicore machines.
+- Improved drawing of shapes with grid snapping enabled.
+- Shortcuts for side menu are now shown on hover.
+- Minor bug fixes and improvements.
+
 # Version 0.13.8
 - FIX: crash when using "Erase everything" option.
 - FIX: improved scrollbar behaviour to prevent accidental scrolling.
