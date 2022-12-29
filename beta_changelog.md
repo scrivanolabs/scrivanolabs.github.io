@@ -1,3 +1,11 @@
+# Version 0.15.0
+- NEW: Auto straighten option for highligher.
+- NEW: Position of documents is now remembered between sessions.
+- FIX: Crash in the rendering engine.
+- FIX: Minor while saving a document.
+- Other minor bugfixes and improvements.
+- Internal changes to logic of rendering.
+
 # Version 0.14.7
 - FIX: crash during PDF importing.
 - Disable input prediction by default.
