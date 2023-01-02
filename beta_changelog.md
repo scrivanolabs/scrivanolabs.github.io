@@ -1,3 +1,6 @@
+# Version 0.15.2
+- Performance improvements in the rendering engine
+
 # Version 0.15.1
 - FIX: bug when copy and pasting ink.
 - Improved handling of background tasks such as autosaving and exporting to PDF
