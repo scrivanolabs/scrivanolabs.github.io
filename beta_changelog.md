@@ -1,3 +1,8 @@
+# Version 0.15.1
+- FIX: bug when copy and pasting ink.
+- Improved handling of background tasks such as autosaving and exporting to PDF
+- Other minor bug fixes and improvements.
+
 # Version 0.15.0
 - NEW: Auto straighten option for highligher.
 - NEW: Position of documents is now remembered between sessions.
