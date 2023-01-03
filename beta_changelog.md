@@ -1,3 +1,6 @@
+# Version 0.15.3
+- Further performance improvements in the rendering engine.
+
 # Version 0.15.2
 - Performance improvements in the rendering engine
 
