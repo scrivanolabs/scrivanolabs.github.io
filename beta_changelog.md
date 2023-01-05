@@ -1,3 +1,10 @@
+# Version 0.15.5
+- FIX: bug that caused documents to become blank
+
+# Version 0.15.4
+- FIX: bug that caused crash in rare occasion.
+- Further improvements in the rendering engine.
+
 # Version 0.15.3
 - Further performance improvements in the rendering engine.
 
