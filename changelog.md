@@ -1,3 +1,16 @@
+# Version 0.15.5
+- NEW: option to enable automatic straightening of lines using the highlighter.
+- NEW: Position of documents is now remembered between sessions.
+- FIX: Crash in the rendering engine.
+- FIX: Rare crash while saving a document.
+- FIX: ability to select ink inside shapes.
+- FIX: bug when copy and pasting ink.
+- FIX: bug causing undo/redo buttons to become disabled.
+- FIX: bug that caused input lag on some devices when input prediction was enabled.
+- Major performance improvements to the rendering engine.
+- Improved handling of background tasks such as autosaving and exporting to PDF.
+- Added notification bar when a PDF is exported.
+
 # Version 0.14.7
 - NEW: area eraser mode to delete all strokes inside or intersecting a path.
 - NEW: option to enable eraser for highlighted strokes only.
