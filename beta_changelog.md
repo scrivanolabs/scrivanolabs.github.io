@@ -1,3 +1,7 @@
+# Version 0.16.0
+- NEW: Added a zoom percentage indicator.
+- NEW: Added tickmarks in colour dialog to distinguish currently selected colour.
+
 # Version 0.15.5
 - FIX: bug that caused documents to become blank
 
