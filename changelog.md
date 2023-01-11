@@ -1,3 +1,7 @@
+# Version 0.16.0
+- NEW: Added a zoom percentage indicator.
+- NEW: Added tickmarks in colour dialog to distinguish currently selected colour.
+
 # Version 0.15.5
 - NEW: option to enable automatic straightening of lines using the highlighter.
 - NEW: Position of documents is now remembered between sessions.
