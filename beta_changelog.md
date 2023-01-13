@@ -1,3 +1,7 @@
+# Version 0.16.1
+- NEW: option to insert empty pages and delete existing ones.
+- NEW: click on zoom indicator to reset zoom level to match window width.
+
 # Version 0.16.0
 - NEW: Added a zoom percentage indicator.
 - NEW: Added tickmarks in colour dialog to distinguish currently selected colour.
