@@ -1,3 +1,12 @@
+# Version 0.16.2
+- NEW: added three options for window visibility at start: Windowed, Maximized, FullScreen.
+- NEW: tap on zoom indicator to match canvas width to 100% of app window.
+- FIX: bug that caused ink to flash on some devices.
+- FIX: selection now becomes inactive when deleting strokes (if appropriate option is enabled).
+- Improved ink prediction algorithm.
+- Minor adjustments to inking input.
+- Increased time take to enter "non-snapping" mode when using press and hold twice.
+
 # Version 0.16.1
 - NEW: option to insert empty pages and delete existing ones.
 - NEW: click on zoom indicator to reset zoom level to match window width.
