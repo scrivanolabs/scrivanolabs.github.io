@@ -1,6 +1,7 @@
 # Version 0.16.3
 - FIX: grid snapping enabled when copying and pasting elements.
 - FIX: auto save on exit now works correctly.
+- FIX: bug that prevented clicking on zoom indicator when using laser tool.
 - Tweaking of press and hold for drawing lines algorithm.
 - Using press and hold twice now disables snapping to shapes.
 
