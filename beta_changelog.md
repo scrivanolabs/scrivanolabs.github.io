@@ -1,3 +1,9 @@
+# Version 0.16.3
+- FIX: grid snapping enabled when copying and pasting elements.
+- FIX: auto save on exit now works correctly.
+- Tweaking of press and hold for drawing lines algorithm.
+- Using press and hold twice now disables snapping to shapes.
+
 # Version 0.16.2
 - NEW: added three options for window visibility at start: Windowed, Maximized, FullScreen.
 - FIX: bug that caused ink to flash on some devices.
