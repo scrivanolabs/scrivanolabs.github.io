@@ -1,3 +1,7 @@
+# Version 0.16.4
+- FIX: crash using partial eraser.
+- FIX: erase highlighter only option didn't work sometimes.
+
 # Version 0.16.3
 - FIX: grid snapping enabled when copying and pasting elements.
 - FIX: auto save on exit now works correctly.
