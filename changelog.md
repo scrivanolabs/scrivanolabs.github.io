@@ -1,3 +1,40 @@
+# Version 0.16.6
+- NEW: option to insert empty pages and delete existing ones.
+
+- NEW: added an indicator for page numbers and zoom level.
+
+- NEW: click on zoom indicator to reset zoom level to match window width.
+
+- NEW: added three options for window visibility at start: Windowed, Maximized, FullScreen.
+
+- NEW: added option to disable VSync when drawing (Windows only).
+
+- NEW: added dialog warning a document is being saved on exit.
+
+- FIX: selection now becomes inactive when deleting strokes (if appropriate option is enabled).
+
+- FIX: auto save on exit now works correctly.
+
+- FIX: grid snapping enabled when copying and pasting elements.
+
+- FIX: erase highlighter only option didn't work sometimes.
+
+- FIX: crash using partial eraser.
+
+- FIX: selecting highlighted strokes without converting them to pen strokes.
+
+- Improved ink prediction algorithm.
+
+- Increased time taken to enter "non-snapping" mode when using press and hold twice.
+
+- Using press and hold twice now disables snapping to shapes.
+
+- Tweaking of press and hold for drawing lines algorithm.
+
+- Minor performance improvements during scrolling.
+
+- Improved visibility of page separators when using custom background colours.
+
 # Version 0.15.5
 - NEW: option to enable automatic straightening of lines using the highlighter.
 - NEW: Position of documents is now remembered between sessions.
