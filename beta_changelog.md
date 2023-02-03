@@ -1,3 +1,8 @@
+# Version 0.16.5
+- NEW: Added page numbers next to zoom indicator
+- FIX: selecting highlighted strokes without converting them to pen strokes.
+- Minor performance improvements during scrolling.
+
 # Version 0.16.4
 - FIX: crash using partial eraser.
 - FIX: erase highlighter only option didn't work sometimes.
