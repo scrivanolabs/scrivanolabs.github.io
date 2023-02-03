@@ -1,3 +1,9 @@
+# Version 0.16.6
+- FIX: app not closing when discarding a document.
+- NEW: add option to disable VSync when drawing (Windows only).
+- Added dialog warning a document is being saved on exit.
+- Improved visibility of page separators when using custom background colours.
+
 # Version 0.16.5
 - NEW: Added page numbers next to zoom indicator
 - FIX: selecting highlighted strokes without converting them to pen strokes.
