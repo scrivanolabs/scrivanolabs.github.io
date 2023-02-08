@@ -1,4 +1,4 @@
-# Version 0.16.6
+# Version 0.16.7
 - NEW: option to insert empty pages and delete existing ones.
 - NEW: added an indicator for page numbers and zoom level.
 - NEW: click on zoom indicator to reset zoom level to match window width.
@@ -11,6 +11,7 @@
 - FIX: erase highlighter only option didn't work sometimes.
 - FIX: crash using partial eraser.
 - FIX: selecting highlighted strokes without converting them to pen strokes.
+- FIX: ensure documents are fully saved when autosave is in progress.
 - Improved ink prediction algorithm.
 - Increased time taken to enter "non-snapping" mode when using press and hold twice.
 - Using press and hold twice now disables snapping to shapes.
