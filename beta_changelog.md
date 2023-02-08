@@ -1,3 +1,6 @@
+# Version 0.16.7
+- FIX: ensure documents are fully saved before exiting.
+
 # Version 0.16.6
 - FIX: app not closing when discarding a document.
 - NEW: add option to disable VSync when drawing (Windows only).
