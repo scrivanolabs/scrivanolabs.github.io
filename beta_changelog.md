@@ -1,4 +1,4 @@
-#Version 0.16.8
+# Version 0.16.8
 - FIX: press and hold algorithm on high refresh rate devices.
 - FIX: maximum and minimum zoom level now stay consistent.
 - FIX: app not closing with an empty document.
