@@ -1,3 +1,9 @@
+# Version 0.16.9
+- FIX: press and hold algorithm on high refresh rate devices.
+- FIX: maximum and minimum zoom level now stay consistent.
+- FIX: app not closing with an empty document.
+- FIX: scrolling is now disabled when using laser (Linux only).
+
 # Version 0.16.7
 - NEW: option to insert empty pages and delete existing ones.
 - NEW: added an indicator for page numbers and zoom level.
