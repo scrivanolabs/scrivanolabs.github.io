@@ -1,3 +1,7 @@
+# Version 0.16.10
+- Improved loading of large document files.
+- Minor improvements to the file format.
+
 # Version 0.16.8
 - FIX: press and hold algorithm on high refresh rate devices.
 - FIX: maximum and minimum zoom level now stay consistent.
