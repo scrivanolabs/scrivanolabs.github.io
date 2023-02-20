@@ -1,3 +1,6 @@
+# Version 0.16.11
+- Major reduction in time taken to save documents (up to 90% faster).
+
 # Version 0.16.10
 - Improved loading of large document files.
 - Minor improvements to the file format.
