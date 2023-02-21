@@ -1,3 +1,6 @@
+# Version 0.16.12
+- Significant reduction in time taken to load files (up to 50% faster).
+
 # Version 0.16.11
 - Major reduction in time taken to save documents (up to 90% faster).
 
