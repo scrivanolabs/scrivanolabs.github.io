@@ -1,5 +1,7 @@
 # Version 0.16.12
 - Significant reduction in time taken to load files (up to 50% faster).
+- Tap with two fingers to undo is now disabled by default.
+- FIX: bug that caused accidental strokes when hovering the screen.
 
 # Version 0.16.11
 - Major reduction in time taken to save documents (up to 90% faster).
