@@ -1,3 +1,6 @@
+# Version 0.16.13
+- Revert latest changes to file loading/saving mechanism due to a critical bug.
+
 # Version 0.16.12
 - Significant reduction in time taken to load files (up to 50% faster).
 - Tap with two fingers to undo is now disabled by default.
