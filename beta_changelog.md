@@ -1,3 +1,7 @@
+# Version 0.17.0
+- FIX: bug that caused app to crash when using stickers.
+- FIX: bug that caused app to misbehave when loading images.
+
 # Version 0.16.13
 - Revert latest changes to file loading/saving mechanism due to a critical bug.
 
