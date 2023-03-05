@@ -1,3 +1,9 @@
+# Version 0.17.1
+- FIX: crash when erasing content in the document.
+- Change default auto saving interval to 5 minutes.
+- Ensure default pen is ballpoint.
+- Minor performance improvements.
+
 # Version 0.17.0
 - FIX: bug that caused app to crash when using stickers.
 - FIX: bug that caused app to misbehave when loading images.
