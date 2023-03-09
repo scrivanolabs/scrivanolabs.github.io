@@ -1,3 +1,14 @@
+# Version 0.16.15
+- FIX: bug that caused accidental pen strokes.
+- FIX: crash when using the eraser.
+- Ballpoint pen is now the default.
+- Two fingers tap is disabled by default.
+
+# Version 0.16.14
+- FIX: Crash when using stickers.
+- Change default window visibility to maximized.
+- Minor improvements to the file format.
+
 # Version 0.16.9
 - FIX: press and hold algorithm on high refresh rate devices.
 - FIX: maximum and minimum zoom level now stay consistent.
