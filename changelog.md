@@ -1,6 +1,6 @@
 # Version 0.16.16
 - FIX: graphical glitches on some devices (Linux only).
-- Canvas is no longer pixelated when zoomin in/out (Linux only).
+- Canvas is no longer pixelated when zooming in/out (Linux only).
 
 # Version 0.16.15
 - FIX: bug that caused accidental pen strokes.
