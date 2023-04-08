@@ -1,3 +1,12 @@
+# Version 0.17.2
+- NEW: Custom page sizes.
+- NEW: Left line margin option for pages.
+- FIX: disappearance of selection handles when rotating.
+- FIX: bug that prevented selecting some images.
+- Upgrade to Qt 6.
+- Small UI tweaks.
+- Minor performance improvements.
+
 # Version 0.17.1
 - FIX: crash when erasing content in the document.
 - Change default auto saving interval to 5 minutes.
