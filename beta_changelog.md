@@ -5,6 +5,7 @@
 - FIX: bug that prevented selecting some images.
 - Upgrade to Qt 6.
 - Small UI tweaks.
+- Improved smoothness of pinch to zoom (Windows only).
 - Minor performance improvements.
 
 # Version 0.17.1
