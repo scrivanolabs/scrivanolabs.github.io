@@ -1,3 +1,8 @@
+# Version 0.17.3
+- NEW: Use PageUp and PageDown shortcuts to navigate pages.
+- FIX: Unable to change document format in existing documents.
+- Don't show .scrvn extension in file dialog.
+
 # Version 0.17.2
 - NEW: Custom page sizes.
 - NEW: Left line margin option for pages.
