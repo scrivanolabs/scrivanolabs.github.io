@@ -1,3 +1,13 @@
+# Version 0.17.4
+- FIX: crash when deleting a sticker after updating it.
+- REMOVE: experimental support for two fingers eraser gesture.
+- Improved input prediction algorithm.
+- Added more information about third party libraries.
+- Improved saving mechanism to be more robust.
+- Removed cancel button from format dialog.
+- Use middle button to drag canvas when using a mouse.
+- Minor internal improvements. 
+
 # Version 0.17.3
 - NEW: Use PageUp and PageDown shortcuts to navigate pages.
 - FIX: Unable to change document format in existing documents.
