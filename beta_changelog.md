@@ -1,3 +1,7 @@
+# Version 0.17.5
+- FIX: bug that caused selection to be stuck.
+- NEW: use left/right arrows to scroll horizontally.
+
 # Version 0.17.4
 - FIX: crash when deleting a sticker after updating it.
 - REMOVE: experimental support for two fingers eraser gesture.
