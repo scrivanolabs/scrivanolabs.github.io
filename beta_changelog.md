@@ -1,3 +1,6 @@
+# Version 0.17.6 
+- Minor UI fixes when using dark mode
+- 
 # Version 0.17.5
 - FIX: bug that caused selection to be stuck.
 - NEW: use left/right arrows to scroll horizontally.
