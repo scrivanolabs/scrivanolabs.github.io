@@ -1,3 +1,28 @@
+# Version 0.17.6
+- NEW: use left/right arrows to scroll horizontally.
+- NEW: use PageUp and PageDown shortcuts to navigate pages.
+- NEW: custom page sizes.
+- NEW: left line margin option for pages.
+- FIX: bug that prevented selecting some images.
+- FIX: disappearance of selection handles when rotating.
+- FIX: crash when erasing content in the document.
+- FIX: bug that caused app to crash when using stickers.
+- FIX: bug that caused app to misbehave when loading images.
+- REMOVE: experimental support for two fingers eraser gesture.
+- Significant reduction in time taken to load files (up to 50% faster).
+- Tap with two fingers to undo is now disabled by default.
+- Major reduction in time taken to save documents (up to 90% faster).
+- Improved input prediction algorithm.
+- Added more information about third party libraries.
+- Improved saving mechanism to be more robust.
+- Removed cancel button from format dialog.
+- Don't show .scrvn extension in file dialog.
+- Small UI tweaks.
+- Improved smoothness of pinch to zoom.  
+- Change default auto saving interval to 5 minutes.
+- Change default pen to ballpoint.
+- Minor performance improvements.
+  
 # Version 0.16.16
 - FIX: graphical glitches on some devices (Linux only).
 - Canvas is no longer pixelated when zooming in/out (Linux only).
