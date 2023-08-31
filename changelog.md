@@ -1,3 +1,8 @@
+# Version 0.17.7
+- FIX: bug that prevented after using scrollbars with stylus.
+- FIX: rare crash when closing application.
+- FIX: bug that caused ellipses to dissappear when rotated.
+
 # Version 0.17.6
 - NEW: use left/right arrows to scroll horizontally.
 - NEW: use PageUp and PageDown shortcuts to navigate pages.
