@@ -1,5 +1,5 @@
 # Version 0.17.7
-- FIX: bug that prevented after using scrollbars with stylus.
+- FIX: bug that prevented drawing after using scrollbars with stylus.
 - FIX: rare crash when closing application.
 - FIX: bug that caused ellipses to dissappear when rotated.
 
