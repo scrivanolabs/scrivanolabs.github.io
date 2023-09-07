@@ -1,3 +1,8 @@
+# Version 0.17.8
+- FIX: bug that caused ink strokes to dissapear.
+- FIX: bug that prevented documents from autoresizing when adding a page.
+- FIX: bug that prevented drawing after using scrollbars with a touch device.
+
 # Version 0.17.7
 - FIX: bug that prevented drawing after using scrollbars with stylus.
 - FIX: rare crash when closing application.
