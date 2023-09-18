@@ -1,3 +1,7 @@
+# Version 0.18.0
+- NEW: tabs to open multiple documents at the same time.
+- NEW: option to hide tab bar when scrolling.
+
 # Version 0.17.6 
 - Minor UI fixes when using dark mode
 
