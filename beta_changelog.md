@@ -1,3 +1,7 @@
+# Version 0.18.1
+- FIX: crash when closing a tab.
+- FIX: remember document positions after closing tabs.
+
 # Version 0.18.0
 - NEW: tabs to open multiple documents at the same time.
 - NEW: option to hide tab bar when scrolling.
