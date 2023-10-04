@@ -1,3 +1,8 @@
+# Version 0.18.2
+- FIX: bug that prevented changing document format with multiple tabs.
+- FIX: bug that caused tooltips to persists.
+- FIX: incorrect position of toolbar popups.
+
 # Version 0.18.1
 - FIX: crash when closing a tab.
 - FIX: remember document positions after closing tabs.
