@@ -1,3 +1,10 @@
+# Version 0.18.3
+- NEW: system file dialog is used for importing and exporting files.
+- FIX: automatic deselect of selection tool.
+- Reduced memory consumption of the app.
+- Improved startup time of the app.
+- Other minor improvements.
+
 # Version 0.18.2
 - FIX: bug that prevented changing document format with multiple tabs.
 - FIX: bug that caused tooltips to persists.
