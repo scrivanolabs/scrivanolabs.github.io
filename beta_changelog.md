@@ -1,3 +1,6 @@
+# Version 0.18.4
+- FIX: rare crash when rendering PDF documents.
+  
 # Version 0.18.3
 - NEW: system file dialog is used for importing and exporting files.
 - FIX: automatic deselect of selection tool.
