@@ -1,3 +1,6 @@
+# 0.18.8
+- Improved app stability and fixed some crashes.
+
 # Version 0.18.4
 - FIX: rare crash when rendering PDF documents.
   
