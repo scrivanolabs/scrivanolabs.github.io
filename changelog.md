@@ -1,3 +1,14 @@
+# Version 0.18.9
+- NEW: tabs to open multiple documents at the same time.
+- NEW: option to hide tab bar when scrolling.
+- NEW: system file dialog is used for importing and exporting files.
+- FIX: automatic deselect of selection tool.
+- FIX: rare crash when rendering PDF documents.
+- FIX: memory leak when loading documents.
+- Improved general stability of the app.
+- Reduced memory consumption of the app.
+- Improved startup time of the app.
+  
 # Version 0.17.8
 - FIX: bug that caused ink strokes to dissapear.
 - FIX: bug that prevented documents from autoresizing when adding a page.
