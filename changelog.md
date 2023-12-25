@@ -1,3 +1,6 @@
+# Version 0.18.10
+- FIX: dpi of window didn't change when switching monitors (Windows only).
+  
 # Version 0.18.9
 - NEW: tabs to open multiple documents at the same time.
 - NEW: option to hide tab bar when scrolling.
