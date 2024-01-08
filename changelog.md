@@ -1,3 +1,7 @@
+# Version 0.18.11
+- FIX: rare crash when drawing.
+- FIX: PgUp/PgDown keyboard shortcuts.
+  
 # Version 0.18.10
 - FIX: dpi of window didn't change when switching monitors (Windows only).
   
