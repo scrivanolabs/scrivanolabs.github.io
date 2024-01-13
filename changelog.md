@@ -1,3 +1,6 @@
+# Version 0.18.12
+- FIX: crash in rendering logic.
+
 # Version 0.18.11
 - FIX: rare crash when drawing.
 - FIX: PgUp/PgDown keyboard shortcuts.
