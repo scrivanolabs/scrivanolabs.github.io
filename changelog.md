@@ -1,5 +1,5 @@
 # Version 0.18.14
-- FIX: bug that cause lines to always appear behind other strokes.
+- FIX: bug that caused lines to always appear behind other strokes.
 
 # Version 0.18.13
 - FIX: images are now copied to the system clipboard.
