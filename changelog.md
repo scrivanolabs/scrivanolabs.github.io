@@ -1,3 +1,10 @@
+# Version 0.18.14
+- FIX: bug that cause lines to always appear behind other strokes.
+
+# Version 0.18.13
+- FIX: images are now copied to the system clipboard.
+- FIX: toggling fullscreen now works correctly on Windows.
+
 # Version 0.18.12
 - FIX: crash in rendering logic.
 
