@@ -1,3 +1,12 @@
+# Version 0.19.0
+- NEW: option to change the opacity of the highlighter.
+- NEW: option disable line snapping to shapes.
+- NEW: animation when a line snaps to a shape.
+- NEW: use middle button to close tabs.
+- FIX: file names are validated before saving.
+- Minor performance improvements.
+- Changed default ink colors for new users.
+  
 # Version 0.18.8
 - Improved app stability and fixed some crashes.
 
