@@ -1,3 +1,8 @@
+# Version 0.19.1
+- FIX: panning/zooming when using laser and selection tools.
+- FIX: bug that slowed down rendering.
+- Swap eraser and shapes buttons in toolbar.
+
 # Version 0.19.0
 - NEW: option to change the opacity of the highlighter.
 - NEW: option disable line snapping to shapes.
