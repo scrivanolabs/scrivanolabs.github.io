@@ -1,3 +1,8 @@
+# Version 0.19.4
+- FIX: drawing after press and hold gesture using a mouse.
+- FIX: select strokes inside image without selecting image.
+- FIX: don't close tab when tapping with touchscreen.
+
 # Version 0.19.1
 - FIX: panning/zooming when using laser and selection tools.
 - FIX: bug that slowed down rendering.
