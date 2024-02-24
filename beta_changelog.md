@@ -1,3 +1,10 @@
+# Version 0.19.5
+- FIX: rare crash when drawing shapes.
+- Zoom level reflects the real size of paper on screen.
+- Try to match imported PDF size in empty documents.
+- Added small delay before showing cursor when writing stops.
+- Minor UI tweaks.
+  
 # Version 0.19.4
 - FIX: drawing after press and hold gesture using a mouse.
 - FIX: select strokes inside image without selecting image.
