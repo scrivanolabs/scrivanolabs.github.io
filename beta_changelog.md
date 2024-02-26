@@ -1,3 +1,9 @@
+# Version 0.19.6
+- Improvements to cursor handling.
+- Use Ctrl+Y for undoing instead of Ctrl+Shift+Z on Windows.
+- Minor adjustements to logic of free eraser.
+- Other minor internal tweaks.
+  
 # Version 0.19.5
 - FIX: rare crash when drawing shapes.
 - Zoom level reflects the real size of paper on screen.
