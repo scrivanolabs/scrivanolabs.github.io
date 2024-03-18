@@ -1,3 +1,8 @@
+# Version 0.19.7
+- FIX: crash when switching tabs while selection is active.
+- Other minor improvements to stability of the app.
+- Disable zoom with 3 fingers to avoid conflict with system gestures.
+  
 # Version 0.19.6
 - Improvements to cursor handling.
 - Use Ctrl+Y for undoing instead of Ctrl+Shift+Z on Windows.
