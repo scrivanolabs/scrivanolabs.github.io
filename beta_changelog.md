@@ -1,3 +1,10 @@
+# Version 0.19.8
+- NEW: right angle triangle shape.
+- NEW: option to disable input smoothing to reduce storage space.
+- FIX: bug that caused to select random objects.
+- Added Ctrl+Shift+Z as additional redo shortcut for Windows users.
+- Improved cursor handling with eraser.
+  
 # Version 0.19.7
 - FIX: crash when switching tabs while selection is active.
 - Other minor improvements to stability of the app.
