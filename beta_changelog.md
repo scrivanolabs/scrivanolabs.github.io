@@ -1,3 +1,9 @@
+# Version 0.19.9
+- NEW: option to choose positions of scrollbars.
+- FIX: selecting lines with rectangular selection tool.
+- Disable scrolling with keyboard when drawing or erasing.
+- Improved cursor handling.
+
 # Version 0.19.8
 - NEW: right angle triangle shape.
 - NEW: option to disable input smoothing to reduce storage space.
