@@ -1,3 +1,32 @@
+# Version 0.19.10
+- NEW: option to change the opacity of the highlighter.
+- NEW: option disable line snapping to shapes.
+- NEW: animation when a line snaps to a shape.
+- NEW: use middle button to close tabs.
+- NEW: right angle triangle shape.
+- NEW: option to choose positions of scrollbars.
+- NEW: option to disable input smoothing to reduce storage space.
+- NEW: hold spacebar key to drag the canvas instead of drawing.
+- FIX: file names are validated before saving.
+- FIX: bug that slowed down rendering.
+- FIX: panning/zooming when using laser and selection tools.
+- FIX: select strokes inside image without selecting image.
+- FIX: rare crash when drawing shapes.
+- FIX: crash when switching tabs while selection is active.
+- FIX: selecting lines with rectangular selection tool.
+- Swap eraser and shapes buttons in toolbar.
+- Disable scrolling with keyboard when drawing or erasing.
+- Use Ctrl+Y for undoing instead of Ctrl+Shift+Z on Windows.
+- Better error messages.
+- Improvements to cursor handling.
+- Zoom level reflects the real size of paper on screen.
+- Try to match imported PDF size in empty documents.
+- Disable zoom with 3 fingers to avoid conflict with system gestures.
+- Added small delay before showing cursor when writing stops.
+- Changed default ink colors for new users.
+- Minor performance improvements.
+- Minor UI tweaks.
+
 # Version 0.18.14
 - FIX: bug that caused lines to always appear behind other strokes.
 
