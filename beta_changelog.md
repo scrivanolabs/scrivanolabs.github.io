@@ -1,3 +1,12 @@
+# Version 0.20.0
+- NEW: sidebar to manage and open documents.
+- NEW: show recent files in sidebar.
+- NEW: show favourite files and folder in sidebar.
+- NEW: number of pen colors increased 5.
+- Window can be snapped to half width on smaller screens.
+- Minor changes to the toolbar layout.
+- Minor bugfixes and improvements.
+
 # Version 0.19.9
 - NEW: option to choose positions of scrollbars.
 - FIX: selecting lines with rectangular selection tool.
