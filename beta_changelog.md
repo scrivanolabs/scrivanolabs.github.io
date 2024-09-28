@@ -1,3 +1,15 @@
+# Version 0.20.1
+- NEW: option to disable angular snapping for selection.
+- NEW: option to set alignment for writing canvas.
+- NEW: selection handle to rotate changed to middle left.
+- FIX: crash when closing document with active selection.
+- FIX: don't close discarded documents on exit.
+- Make sidebar header always stay on top.
+- Change default page separators color.
+- Set default exported name to current doc title
+- Other minor improvements and bug fixes.
+
+- Minor changes to input processing.
 # Version 0.20.0
 - NEW: sidebar to manage and open documents.
 - NEW: show recent files in sidebar.
