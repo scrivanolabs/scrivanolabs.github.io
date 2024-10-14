@@ -1,3 +1,9 @@
+# Version 0.20.2
+- FIX: misplaced selection when writing canvas is align to left/right.
+- FIX: bugs when using the rectangular selection tool.
+- Newly created documents are now added to recent files.
+- Minor changes to input processing.
+
 # Version 0.20.1
 - NEW: option to disable angular snapping for selection.
 - NEW: option to set alignment for writing canvas.
