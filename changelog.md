@@ -1,3 +1,9 @@
+# Version 0.19.12
+- FIX: bug that prevented autosaving to work reliably.
+
+# Version 0.19.11
+- FIX: bug that causes canvas to get stuck when pinching
+  
 # Version 0.19.10
 - NEW: option to change the opacity of the highlighter.
 - NEW: option disable line snapping to shapes.
