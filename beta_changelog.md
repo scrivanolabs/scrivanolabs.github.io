@@ -1,3 +1,11 @@
+# Version 0.20.3
+- NEW: add ability to open files using system dialog.
+- FIX: opening files from file explorer on Windows.
+- FIX: better remembering of last opened folders in dialogs.
+- FIX: accidental clicks on tab bar when using sidebar.
+- Selection menu now follows dark theme.
+- Improved error messages for file saving/loading.
+
 # Version 0.20.2
 - FIX: misplaced selection when writing canvas is align to left/right.
 - FIX: bugs when using the rectangular selection tool.
