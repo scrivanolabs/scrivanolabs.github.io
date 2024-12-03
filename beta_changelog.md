@@ -1,3 +1,7 @@
+# Version 0.20.4
+- FIX: rendering issues on Wayland
+- Minor improvements in handling of file dialogs on Linux.
+  
 # Version 0.20.3
 - NEW: add ability to open files using system dialog.
 - FIX: opening files from file explorer on Windows.
