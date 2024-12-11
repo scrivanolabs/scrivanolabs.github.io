@@ -1,3 +1,24 @@
+# Version 0.20.5
+- NEW: sidebar to manage and open documents.
+- NEW: show recent files in sidebar.
+- NEW: show favourite files and folder in sidebar.
+- NEW: number of pen colors increased 5.
+- NEW: add ability to open files using system dialog.
+- NEW: option to disable angular snapping for selection.
+- NEW: option to set alignment for writing canvas.
+- NEW: selection handle to rotate changed to middle left.
+- FIX: opening files from file explorer on Windows.
+- FIX: crash when closing document with active selection.
+- FIX: don't close discarded documents on exit.
+- FIX: bugs when using the rectangular selection tool.
+- Selection menu now follows dark theme.
+- Improved error messages for file saving/loading.
+- Change default page separators color.
+- Set default exported name to current doc title
+- Minor changes to input processing.
+- Window can be snapped to half width on smaller screens.
+- Other minor improvements and bug fixes.
+  
 # Version 0.19.12
 - FIX: bug that prevented autosaving to work reliably.
 
