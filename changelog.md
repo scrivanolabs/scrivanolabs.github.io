@@ -1,3 +1,6 @@
+# Version 0.20.6
+- FIX: performance regression in fullscreen mode (Windows only).
+
 # Version 0.20.5
 - NEW: sidebar to manage and open documents.
 - NEW: show recent files in sidebar.
