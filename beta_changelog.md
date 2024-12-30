@@ -1,3 +1,10 @@
+# Version 0.20.7
+- NEW: Ctrl+click to open documents in background in sidebar.
+- FIX: rendering issues with multiple PDFs.
+- FIX: restore shift modifier for selection with stylus.
+- FIX: smoothness of highlighter on Windows.
+- Disable tablet input compression on Windows.
+  
 # Version 0.20.4
 - FIX: rendering issues on Wayland
 - Minor improvements in handling of file dialogs on Linux.
