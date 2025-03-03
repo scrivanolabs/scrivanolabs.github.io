@@ -1,3 +1,12 @@
+# Version 0.20.8
+- NEW: Ctrl+click to open documents in background in sidebar.
+- FIX: flickering of ink on some devices.
+- FIX: rendering issues with multiple PDFs.
+- FIX: restore shift modifier for selection with stylus.
+- FIX: smoothness of highlighter on Windows.
+- Disable tablet input compression on Windows.
+- Other minor fixes.
+  
 # Version 0.20.6
 - FIX: performance regression in fullscreen mode (Windows only).
 
