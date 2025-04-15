@@ -1,3 +1,10 @@
+# Version 0.21.0
+- NEW: Experimental support for scribble to erase.
+- NEW: Ctrl+Alt+Plus/Minus to scale selection.
+- NEW: Ctrl+Plus/Minus to zoom on canvas.
+- Close default empty document when opening a file from explorer.
+- Fix size of thumbnail items in sidebar.
+  
 # Version 0.20.7
 - NEW: Ctrl+click to open documents in background in sidebar.
 - FIX: rendering issues with multiple PDFs.
