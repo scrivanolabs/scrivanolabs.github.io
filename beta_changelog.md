@@ -1,3 +1,10 @@
+# Version 0.21.1
+- Fill selection area while selecting.
+- Rendering improvements for Windows ARM64.
+- Improvements to scribble to erase algorithm.
+- Cursor for drawing canvas changed to cross.
+- Minor ui fixes.
+  
 # Version 0.21.0
 - NEW: Experimental support for scribble to erase.
 - NEW: Ctrl+Alt+Plus/Minus to scale selection.
