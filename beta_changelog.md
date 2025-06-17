@@ -1,3 +1,14 @@
+# Version 0.21.3
+- NEW: customisable keyboard shortcuts.
+- NEW: drag to zoom in/out by holding Ctrl
+- Faster startup time.
+  
+# Version 0.21.2
+- NEW: setting for enabling/disabling system cursor.
+- Move scribble to erase to pen dialog + tutorial dialog.
+- Fix tooltip for thickness shortcut.
+- Minor UI fixes.
+
 # Version 0.21.1
 - Fill selection area while selecting.
 - Rendering improvements for Windows ARM64.
