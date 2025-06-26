@@ -1,3 +1,9 @@
+# Version 0.21.4
+-  FIX: swap fill and grid snapping buttons.
+-  Add shortcuts for tabs.
+-  Add ability to import/export shortcuts.
+-  Add ability to reset all shortcuts.
+  
 # Version 0.21.3
 - NEW: customisable keyboard shortcuts.
 - NEW: drag to zoom in/out by holding Ctrl
