@@ -13,7 +13,6 @@
 - Minor performance improvements.
 - Minor fixes for UI.
 
-IMPORTANT: this version requires a distro with `glibc >=2.35` (the previous minimum version was `glibc>=2.31`).
 # Version 0.20.8
 - NEW: Ctrl+click to open documents in background in sidebar.
 - FIX: flickering of ink on some devices.
