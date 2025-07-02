@@ -1,3 +1,19 @@
+# Version 0.21.5
+- NEW: Scribble in zigzag fashion to erase strokes.
+- NEW: Shortcut dialogue to customise keyboard shortcuts.
+- NEW: Ctrl+Alt+Plus/Minus to scale selection.
+- NEW: Ctrl+Plus/Minus to zoom on canvas.
+- NEW: Alt+Up/Down to control pen thickness.
+- NEW: drag to zoom in/out by holding Ctrl.
+- NEW: Option to choose to enable/disable the default cursor while writing.
+- FIX: Close the default empty document when opening a file from explorer.
+- FIX: Imprecision of partial eraser in some cases.
+- Rendering improvements for Windows ARM64.
+- Better support for Wayland environments.
+- Minor performance improvements.
+- Minor fixes for UI.
+
+IMPORTANT: this version requires a distro with `glibc >=2.35` (the previous minimum version was `glibc>=2.31`).
 # Version 0.20.8
 - NEW: Ctrl+click to open documents in background in sidebar.
 - FIX: flickering of ink on some devices.
