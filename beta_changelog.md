@@ -1,3 +1,12 @@
+# Version 0.22.0
+- NEW: adjustable number of pens in toolbar.
+- NEW: drag to reorder tabs.
+- NEW: support for isometric backgrounds.
+- FIX: title bar remained light/dark when toggle dark mode.
+- FIX: small rendering glitches when viewing PDF files.
+- Small performance improvements when switching tabs.
+- Small improvements to ink rendering on Windows.
+
 # Version 0.21.4
 -  FIX: swap fill and grid snapping buttons.
 -  Add shortcuts for tabs.
