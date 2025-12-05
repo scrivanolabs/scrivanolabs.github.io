@@ -1,3 +1,9 @@
+# Version 0.22.1
+- Improved animations and visuals for tabs reordering.
+- Improved resiliency of file saving.
+- Make isometric dot radius consistent with normal dotted background.
+- Improved startup time.
+  
 # Version 0.22.0
 - NEW: adjustable number of pens in toolbar.
 - NEW: drag to reorder tabs.
