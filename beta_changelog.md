@@ -1,3 +1,10 @@
+# Version 0.22.3
+- NEW: automatic shape recognition for arrows, triangles, rectangles, circles and ellipses.
+- FIX: bug that cause the app to hang if a lot of documents were opened quickly.
+  
+# Version 0.22.2
+- FIX: dialog to change to fill colour didn't open.
+
 # Version 0.22.1
 - Improved animations and visuals for tabs reordering.
 - Improved resiliency of file saving.
