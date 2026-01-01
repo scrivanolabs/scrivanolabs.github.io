@@ -1,3 +1,14 @@
+# Version 0.22.5
+- NEW: polygon shape tool to create custom polygons.
+- FIX: Copying a selection with Ctrl+drag now works reliably.
+- FIX: opening files while Scrivano is already running.
+- New partial eraser algorithm for better precision.
+- Page Up and Page Down now jump to the start of the previous/next page.
+- Shift + scrolling now does horizontal scrolling.
+- Arrow shapes inherit the same snapping behavior as lines.
+- Recognition of pentagons vs hexagons is more accurate.
+- Sticker now have the same background as the current page.
+
 # Version 0.22.4
 - Improve input processing for smoother ink strokes.
 - Improve recognition of triangle shapes.
