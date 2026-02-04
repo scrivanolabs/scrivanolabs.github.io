@@ -1,3 +1,23 @@
+# Version 0.22.7
+- NEW: automatic shape recognition for builtin shapes.
+- NEW: polygon shape tool to create custom polygons.
+- NEW: adjustable number of pens in toolbar.
+- NEW: drag to reorder tabs.
+- NEW: support for isometric backgrounds.
+- NEW: native Windows ARM64 version.
+- FIX: Copying a selection with Ctrl+drag now works reliably.
+- FIX: opening files while Scrivano is already running.
+- FIX: bug that cause the app to hang if a lot of documents were opened quickly.
+- FIX: title bar remained light/dark when toggle dark mode.
+- FIX: small rendering glitches when viewing PDF files.
+- New partial eraser algorithm for better precision.
+- Page Up and Page Down now jump to the start of the previous/next page.
+- Shift + scrolling now does horizontal scrolling.
+- Arrow shapes inherit the same snapping behavior as lines.
+- Sticker now have the same background as the current page.
+- Improve input processing for smoother ink strokes.
+- Improved resiliency of file saving.
+
 # Version 0.21.5
 - NEW: Scribble in zigzag fashion to erase strokes.
 - NEW: Shortcut dialogue to customise keyboard shortcuts.
