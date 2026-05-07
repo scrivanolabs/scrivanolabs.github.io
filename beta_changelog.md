@@ -1,5 +1,5 @@
 # Version 0.23.0
-- NEW: new intertia-based logic for better scrolling of the canvas.
+- NEW: new inertia based logic for better scrolling of the canvas.
 - Faster launch time (Windows only).
 - Reduced RAM consumption.
 - Decreased minimum app window width.
