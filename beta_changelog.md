@@ -1,3 +1,12 @@
+# Version 0.23.0
+- NEW: new intertia-based logic for better scrolling of the canvas.
+- Faster launch time (Windows only).
+- Reduced RAM consumption.
+- Decreased minimum app window width.
+- Improved pinch to zoom smoothness and logic.
+- Improved PDF rendering of single-point ink strokes.
+- Increased resolution of PDF rendered pages.
+  
 # Version 0.22.5
 - NEW: polygon shape tool to create custom polygons.
 - FIX: Copying a selection with Ctrl+drag now works reliably.
