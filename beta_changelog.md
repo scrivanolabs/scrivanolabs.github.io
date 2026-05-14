@@ -1,3 +1,12 @@
+# Version 0.23.1
+- NEW: DirectX rendering backend for better performance and smoother animations.
+- FIX: bug that caused scrolling of canvas underneath dialogs.
+- FIX: insert space tool not working.
+- FIX: Ctrl-drag duplicate selection
+- FIX: keyboard shortcuts dialogs twice
+- Decreased speed threshold for shape conversion
+- Improved scrolling physics for the canvas.
+
 # Version 0.23.0
 - NEW: new inertia based logic for better scrolling of the canvas.
 - Faster launch time (Windows only).
