@@ -1,3 +1,11 @@
+# Version 0.23.2
+- NEW: support for opening documents in multiple windows.
+- FIX: janky sidebar animations.
+- Small improvements in rendering performance.
+- Significantly reduced memory consumption with PDF documents.
+- Sidebar tabs are now remembered between sessions.
+- Tweaked scrolling physics.
+
 # Version 0.23.1
 - NEW: DirectX rendering backend for better performance and smoother animations.
 - FIX: bug that caused scrolling of canvas underneath dialogs.
