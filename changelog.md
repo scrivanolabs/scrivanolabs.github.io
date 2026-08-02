@@ -1,3 +1,18 @@
+# Version 0.23.3
+- NEW: support for opening documents in multiple windows.
+- NEW: change rendering backend to DirectX (Windows only).
+- NEW: new inertia-based logic for better scrolling of the canvas.
+- NEW: support for automatic theme switching based on system settings.
+- FIX: Ctrl-drag duplicate selection.
+- Many improvements to rendering performance.
+- Added a shortcut to switch between dark and light mode.
+- Improved startup time and performance.
+- Reduced RAM consumption.
+- Decreased minimum app window width.
+- Improved PDF rendering of single-point ink strokes.
+- Increased resolution of PDF-rendered pages.
+- Sidebar tabs are now remembered between sessions.
+  
 # Version 0.22.7
 - NEW: automatic shape recognition for builtin shapes.
 - NEW: polygon shape tool to create custom polygons.
