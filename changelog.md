@@ -1,3 +1,8 @@
+# Version 0.23.5
+- FIX: tablet input not working.
+- FIX: crash while exporting PDF.
+- FIX: crash when running under Wayland.
+  
 # Version 0.23.3
 - NEW: support for opening documents in multiple windows.
 - NEW: change rendering backend to DirectX (Windows only).
