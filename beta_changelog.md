@@ -1,3 +1,26 @@
+# Version 0.24.3
+- FIX: laser not working with mouse.
+- FIX: restore textbox dimensions on undo.
+- FIX: two fingers to undo logic.
+- Preserve styled selectable text in exported PDFs.
+- Other minor bug fixes.
+
+# Version 0.24.2
+- FIX: potential crashes in the rendering logic.
+- FIX: bugs in the undo/redo logic.
+- FIX: crash when using the vertical space tool.
+- REMOVE: vsync option in the Settings.
+- Allow touch gestures to manipulate selections and scroll outside them.
+- Improve text formatting toolbar with small width windows.
+  
+# Version 0.24.1
+- NEW: support for text boxes with rich text formatting.
+- FIX: crash when cutting selection across pages.
+- Improved ink latency for Wayland devices.
+- Improve touchpad scrolling physics.
+- Minor fixes in the saving logic.
+- Other minor improvements.
+
 # Version 0.23.2
 - NEW: support for opening documents in multiple windows.
 - FIX: janky sidebar animations.
