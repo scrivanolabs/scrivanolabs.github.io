@@ -1,3 +1,22 @@
+# Version 0.24.6
+- FIX: rare crash while using undo button.
+- Further improvements for pen input handling on Windows.
+  
+# Version 0.24.5
+- FIX: unreliable pen input on some devices.
+  
+# Version 0.24.4
+- NEW: Support for text boxes with rich text formatting.
+- FIX: Restore text box dimensions when undoing changes.
+- FIX: Crash when cutting selection across pages.
+- FIX: Potential crashes in the rendering logic.
+- FIX: Bugs in the undo/redo logic.
+- FIX: Crash when using the vertical space tool.
+- REMOVE: Vsync option in the Settings.
+- Reduced ink latency on Wayland.
+- Allow touch gestures to manipulate selections and scroll outside them.
+- Other minor bug fixes and improvements.
+
 # Version 0.23.5
 - FIX: tablet input not working.
 - FIX: crash while exporting PDF.
